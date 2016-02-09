@@ -1,0 +1,15 @@
+{
+  "name": "request-header-parser-ms",
+  "version": "1.0.0",
+  "description": "Request Header Parser Microservice Project ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Sanket Shah",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
