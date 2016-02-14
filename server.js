@@ -42,6 +42,7 @@ app.get('/', function(req, res){
 		language: getLanguage(req),
 		software: getSoftware(req)
 	};
+	res.writeHead(200, {"Content-Type": "application/json"});
 	res.json(obj);
 });
 
